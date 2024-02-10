@@ -620,7 +620,8 @@ input, select, textarea {
 		}
 
 		.icon > .label {
-			display: none;
+			display: inline-block;
+			margin-left: 2em;
 		}
 
 		.icon:before {
@@ -913,8 +914,8 @@ input, select, textarea {
 	}
 
 		ul.icons li {
-			display: inline-block;
-			padding: 0 0.75em 0 0;
+			display: block;
+			margin: 1em 0;
 		}
 
 			ul.icons li:last-child {
@@ -922,20 +923,17 @@ input, select, textarea {
 			}
 
 			ul.icons li a {
-				border-radius: 100%;
-				box-shadow: inset 0 0 0 1px #ffffff;
-				display: inline-block;
 				height: 2.25rem;
 				line-height: 2.25rem;
 				text-align: center;
 				width: 2.25rem;
 			}
 
-				ul.icons li a:hover {
+				ul.icons li span:hover {
 					background-color: rgba(255, 255, 255, 0.075);
 				}
 
-				ul.icons li a:active {
+				ul.icons li span:active {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
 
@@ -1369,7 +1367,7 @@ input, select, textarea {
 
 				#header nav ul li a {
 					display: block;
-					min-width: 7.5rem;
+					min-width: 8.7rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
 					padding: 0 1.25rem 0 1.45rem;
