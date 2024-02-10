@@ -699,12 +699,12 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		.image.diagram {
+		.image.zoom {
 			transition: transform 0.3s;
 		}
 
-		.image.diagram:hover {
-			transform: scale(1.5)
+		.image.zoom:hover {
+			transform: scale(1.3)
 		}
 
 		.image.profile img {
