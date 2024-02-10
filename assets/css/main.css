@@ -699,6 +699,14 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.image.diagram {
+			transition: transform 0.3s;
+		}
+
+		.image.diagram:hover {
+			transform: scale(1.5)
+		}
+
 		.image.profile img {
 			width: 100%;
 		}
